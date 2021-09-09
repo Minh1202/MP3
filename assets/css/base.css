@@ -1,0 +1,55 @@
+:root {
+    --primary-color : #411465;
+    --blue-color :#6a39af;
+    --slidebar : rgba(79, 25, 124, 0.8);
+    --text-color-hover : rgb(255, 255, 255, 0.7);
+    --text-primary : #ffffff;
+    --text-black: #333; 
+    --btn-pink : #ed2b91;
+    --btn-pink-hover:#fe63da;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: var(--primary-color); */
+    background-image: url(../images/zma.svg);
+}
+
+.main {
+    background-color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-hover);
+}
+
+li {
+    list-style: none;
+}
+
+@keyframes up-playing-now {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  
+  @keyframes down-playing-now {
+    0% {
+      transform: translateY(0%);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }

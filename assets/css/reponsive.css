@@ -1,0 +1,116 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet and mobile */
+@media (max-width:1023px) {
+   .slidebar {
+       max-width: 80px !important;
+       max-height: 100% !important;
+   }
+
+   .logo {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+
+   .logo img {
+       background-image: url(../images/icon_zing_mp3_60.f6b51045.svg);
+       width: 30px;
+       height: 30px;
+   }
+   .menu-element-library-title,
+   .slidebar-banner,
+   .slidebar-playlist a,
+   .menu-element a {
+        display: none;
+   }
+
+   .header {
+       width: calc(100% - 82px);
+   }
+
+   .container {
+       width: calc( 100% - 90px);
+   }
+
+   .header-next-prev i {
+       margin: 0 5px;
+   }
+   .slideshow img,
+   .lever-bar,
+   .header-search-btn {
+       width: 100%;
+   }
+
+    .header-bot-right i:nth-child(1),
+    .header-bot-right i:nth-child(2),
+    .header-bot-right i:nth-child(5),
+    .left-icon,
+    .heard-recently:nth-child(4),
+    .heard-recently:nth-child(5),
+    .slideshow:nth-child(3) {
+       display: none !important;
+   }
+    
+   .header-bot-nameSongs h1,
+   .header-bot-nameSongs a {
+       font-size: 1rem;
+   }
+
+   .container-img {
+    margin-bottom: 35px;
+   }
+
+   .container-img-title {
+       margin-bottom: 50px;
+   }
+
+   .container-media {
+       height: 40vh;
+   }
+
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .main {
+        display: none;
+    }
+
+    .title-end {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background-color: var(--primary-color);
+    }
+
+    .title-end h1 {
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 739px) {
+    .main {
+        display: none;
+    }
+
+    .title-end {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background-color: var(--primary-color);
+    }
+
+    .title-end h1 {
+        color: #ffffff;
+    }
+
+  
+}

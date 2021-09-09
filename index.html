@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/icon_zing_mp3_60.png">
+    <title>MP3 - YiYi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="grid">
+            <div class="row-container">
+                <!-- Slide Bar -->
+                <div class="slidebar">
+                    <div class="logo">
+                        <img src="./assets/images/logo-dark.svg" alt="">
+                    </div>
+                    <div class="slidebar-menu">
+                        <ul>
+                            <li class="menu-element" id="MySong"><i class="slidebar-menu-icon ti-user"></i><a
+                                    href="mySong.html">Cá nhân</a>
+                            </li>
+                            <li class="menu-element active" id="Discover"><i
+                                    class="slidebar-menu-icon ti-music-alt"></i><a href="#">Khám phá</a> </li>
+                            <li class="menu-element"><i class="slidebar-menu-icon ti-pulse"></i><a
+                                    href="#">#zingchart</a> </li>
+                            <li class="menu-element"><i class="slidebar-menu-icon ti-headphone"></i><a href="#">Radio &
+                                    Podcast</a> </li>
+                            <li class="menu-element"><i class="slidebar-menu-icon ti-layout-list-thumb"></i><a
+                                    href="#">Theo dõi</a>
+                            </li>
+                            <div class="space"></div>
+                            <div class="menu-element-child">
+                                <li class="menu-element"><i class="slidebar-menu-icon ti-music"></i><a href="#">Nhạc
+                                        mới</a></li>
+                                <li class="menu-element"><i class="slidebar-menu-icon ti-layout-grid2"></i><a
+                                        href="#">hể loại</a> </li>
+                                <li class="menu-element"><i class="slidebar-menu-icon ti-star"></i><a href="#">Top
+                                        100</a> </li>
+                                <li class="menu-element"><i class="slidebar-menu-icon ti-layers"></i><a href="#">MV</a>
+                                </li>
+
+                                <div class="slidebar-banner">
+                                    <div class="banner">
+                                        <div class="banner-text">Nghe nhạc không quảng cáo cùng kho nhạc VIP</div>
+                                        <a class="banner-btn">mua vip </a>
+                                    </div>
+                                </div>
+                                <nav class="menu-element-library">
+                                    <div class="menu-element-library-title ">Thư viện <i
+                                            class="icon-library ti-marker-alt"></i></div>
+                                    <ul>
+                                        <li class="menu-element"><i class="slidebar-menu-icon ti-music"></i><a
+                                                href="#">Nhạc mới</a> </li>
+                                        <li class="menu-element"><i class="slidebar-menu-icon ti-layout-grid2"></i><a
+                                                href="#">Thể loại</a> </li>
+                                        <li class="menu-element"><i class="slidebar-menu-icon ti-star"></i><a
+                                                href="#">Top 100</a> </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </ul>
+                    </div>
+
+                    <div class="space"></div>
+                    <div class="slidebar-playlist">
+                        <ul>
+                            <li><i class="slidebar-menu-icon ti-plus"></i><a href="">Tạo playlist mới</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <!-- Header Top  -->
+                <div class="row">
+                    <div class="header">
+                        <div class="header-next-prev col l-1 m-1">
+                            <i class="ti-arrow-left active"></i>
+                            <i class="ti-arrow-right"></i>
+                        </div>
+                        <div class="header-search col l-8 m-7">
+                            <button class="header-search-btn">
+                                <i class="ti-search"></i>
+                                <input type="text" placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                            </button>
+
+                        </div>
+                        <div class="header-icons col l-3 m-4">
+                            <div class="header-icon"><i class="ti-themify-favicon"></i></div>
+                            <div class="header-icon"><i class="ti-upload"></i></div>
+                            <div class="header-icon"><i class="ti-settings"></i></div>
+                            <div class="header-icon"><i class="ti-face-smile"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main -->
+                <div class="row">
+                    <div class="container">
+                        <div class="grid wide">
+                            <div class="container-slideshow">
+                                <div class="row wide">
+                                    <div class="slideshow col l-4 m-6">
+                                        <img src="./assets/images/container-slideshow2.jpg" alt="">
+                                    </div>
+                                    <div class="slideshow col l-4 m-6">
+                                        <img src="./assets/images/container-slideshow1.jpg" alt="">
+                                    </div>
+                                    <div class="slideshow col l-4 m-0">
+                                        <img src="./assets/images/container-slideshow3.jpg" alt="">
+                                    </div>
+
+                                    <div class="btn-slideshow">
+                                        <i class="ti-angle-left"></i>
+                                        <i class="ti-angle-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container-heard-recently">
+                                <div class="heard-recently-title">
+                                    <a href="#"> Nghe Gần Đây <i class="ti-angle-right"></i></a>
+                                    <div class="heard-recently-title-icons">
+                                        <i class="ti-angle-left"></i>
+                                        <i class="ti-angle-right"></i>
+
+                                    </div>
+                                </div>
+                                <div class="row heard-recently-parent">
+                                    <div class="heard-recently col l-2-4 m-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently0.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Yêu Thích</a> <br>
+                                            <a href="#">Min Min</a>
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4 m-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently1.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Top 100 Nhạc V-Pop Hay Nhất</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4 m-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently2.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">#ZINGCHART</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4 m-0">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently3.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Melody Of The Night (CD1)</a> <br>
+                                            <a href="#">Jin Shi</a>
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4 m-0">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently4.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Top 100 Bài Hát Nhạc Trẻ Hay Nhất</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-heard-recently">
+                                <div class="heard-recently-title">
+                                    <a href="#"> Có Thể Bạn Muốn Nghe </a>
+                                    <div class="heard-recently-title-icons">
+                                        <i class="ti-angle-left"></i>
+                                        <i class="ti-angle-right"></i>
+
+                                    </div>
+                                </div>
+                                <div class="row heard-recently-parent">
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently5.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">HIT-MAKER: Mr. Siro</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently6.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Nhạc Việt Đầy Hứa Hẹn</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently7.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">#Hashtag V-POP</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently8.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Pop Ballad Việt Nổi Bật</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently9.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Nam Thần Nhạc Việt</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-heard-recently">
+                                <div class="heard-recently-title">
+                                    <a href="#"> Nhạc Việt ngày nay </a>
+                                    <div class="heard-recently-title-icons">
+                                        <i class="ti-angle-left"></i>
+                                        <i class="ti-angle-right"></i>
+
+                                    </div>
+                                </div>
+                                <div class="row heard-recently-parent">
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently10.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">V-Pop Band</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently11.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Acoustic Gây Nghiện</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently12.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Remix Việt Mới Nhất</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently13.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Tiềm Năng V-Pop</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                    <div class="heard-recently col l-2-4">
+                                        <div class="heard-recently-img">
+                                            <img class="hr-img" src="./assets/images/container-heard-recently14.jpg"
+                                                alt="">
+                                            <div class="heard-recently-img-icon">
+                                                <i class="fas fa-heart"></i>
+                                                <i class="fas fa-play"></i>
+                                                <i class="ti-more"></i>
+                                            </div>
+                                        </div>
+                                        <div class="heard-recently-img-title">
+                                            <a href="#">Đóa Hồng Nhạc Việt</a> <br>
+                                            <!-- <a href="#">Min Min</a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Playing -->
+            <div class="header-bot">
+                <div class="row">
+                    <div class="header-bot-left col l-4 m-4">
+                        <div class="header-bot-images">
+                            <img class="cdThumb" src="./assets/images/Songs-img/HaAnhTuan.jpg" alt="">
+                        </div>
+                        <div class="header-bot-nameSongs">
+                            <h1>Giấc Mơ Chỉ Là Giấc Mơ</h1>
+                            <a href="#">Hà Anh Tuấn</a>
+                        </div>
+                        <div class="left-icon left-icon-1"><i class="fas fa-heart"></i></div>
+                        <div class="left-icon left-icon-2"><i class="ti-more"></i></div>
+                    </div>
+                    <div class="header-bot-mid col l-5 m-5">
+                        <div class="header-bot-items">
+                            <div class="control">
+                                <div class="btn btn-repeat">
+                                    <i class="fas fa-redo"></i>
+                                </div>
+                                <div class="btn btn-prev ">
+                                    <i class="fas fa-step-backward"></i>
+                                </div>
+                                <div class="btn btn-toggle-play">
+                                    <i class="fas fa-pause icon-pause"></i>
+                                    <i class="fas fa-play icon-play"></i>
+                                </div>
+                                <div class="btn btn-next">
+                                    <i class="fas fa-step-forward"></i>
+                                </div>
+                                <div class="btn btn-random">
+                                    <i class="fas fa-random"></i>
+                                </div>
+                            </div>
+                            <div class="lever-bar">
+                                <span class="progress__current">00:00</span>
+                                <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+                                <audio id="audio" src=""></audio>
+                                <span class="progress__duration">00:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-bot-right col l-3 m-3">
+                        <i class="ti-stack-overflow"></i>
+                        <i class="ti-microphone"></i>
+                        <i class="ti-volume"></i>
+                        <input id="progress" class="progress-right" type="range" value="0" step="1" min="0" max="100">
+                        <i class="ti-layout-cta-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="title-end">
+        <h1>Hổng có reponse Mobile ^^</h1>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
+
+
+<!-- Nguyễn Văn Minh - YiYi -->
